@@ -72,7 +72,7 @@ const handleSubmit = async(e)=>{
   loader(messageDiv);
 
   //fetch data from server i.e. bot's response
-  const response= await fetch('http://localhost:5100',{
+  const response= await fetch('https://neha.onrender.com',{
     method:'POST',
     headers:{
       'Content-Type': 'application/json'
