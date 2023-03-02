@@ -1,9 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "type":"module",
+  "description" : "",
+  "type" : "module",
   "scripts": {
-    "server":"nodemon server"
+    "server" : "nodemon server"
   },
   "keywords": [],
   "author": "",
